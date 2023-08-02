@@ -1,0 +1,42 @@
+/* Write your code here. */
+.bg-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #1d976c, #93f9b9);
+  min-height: 100vh;
+  font-family: roboto;
+  padding: 20px;
+}
+.calculator-card {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  color: white;
+}
+.label {
+  color: white;
+  font-size: 15px;
+}
+.search-input {
+  border: 1px solid white;
+  background-color: transparent;
+  margin-top: 10px;
+}
+.letters-count {
+  color: #219a6f;
+  height: 50px;
+  width: 200px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.image {
+  height: 400px;
+}
+.image-card {
+  order: 1;
+}
